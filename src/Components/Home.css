@@ -1,0 +1,47 @@
+.animation{
+  background-color:rgb(199, 216, 224); 
+  padding: 20px;
+  margin-right: 20px; 
+  
+}
+.main-container{
+ 
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+.row1 h4{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+.icons {
+  display: inline-block;
+  width: 30px;
+ 
+}
+.habit-title {
+  display: inline-block;
+  width: 100px;
+
+}
+.habit-container {
+  width: 50vw;
+}
+.left-content {
+  flex: 3; 
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.right-content {
+  flex: 1; 
+  padding: 20px;
+  background-color: #f8f8f8; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 30vh;
+   min-height: 50vh;
+} 
+
+

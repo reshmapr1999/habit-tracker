@@ -1,0 +1,43 @@
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px; /* Adjust as needed */
+    background-color: #C8ACD6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .quote {
+    font-size: 1.25rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
+    color: #2E236C ;
+  }
+  
+  .fade-enter {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  
+  .fade-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .fade-exit {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .fade-exit-active {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  

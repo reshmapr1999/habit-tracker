@@ -1,0 +1,41 @@
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 20px;
+   background-color: #987D9A;
+   color: white; 
+   min-width: 100vh;
+   position: fixed; 
+   top: 0;
+}
+
+.right{
+    display: flex;
+    font-size: 30px;
+    margin-left: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.left{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.home{
+    margin-right: 50px;
+    font-size: 18px;
+    padding: 14px;
+    border-radius: 25px;
+   
+}
+.home:hover{
+    background-color: #C8ACD6;
+}
+.Date{
+    font-size: 18px;
+    margin-left: 5px;
+    
+}
